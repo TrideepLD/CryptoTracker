@@ -213,6 +213,7 @@ public class Arb {
     /**
      * You only want to run if you are possibly debugging, otherwise run it from GUI side.
      */
+
     public static void main(String[] args) {
 
         /**
@@ -221,7 +222,11 @@ public class Arb {
          */
         
         Arb arb = new Arb();
-        arb.createTable_crypto();
+        try {
+			arb.createTable_crypto();
+		} catch (Exception e1) {
+			e1.printStackTrace();
+		}
 
         Timer cryptoTimer = new Timer();
 		cryptoTimer.scheduleAtFixedRate(new TimerTask() {
@@ -230,7 +235,7 @@ public class Arb {
             public void run() {
             	try {
                     
-                    arb.runUpdate_Crypto(API_URL); // If it doesnt update values, check this first.
+                    arb.runUpdate_Crypto(arb.API_URL); // If it doesnt update values, check this first.
                     arb.post_crypto();
                     arb.mathsStuff();
                     arb.print_arb_calc_result();
@@ -239,5 +244,7 @@ public class Arb {
             }
         }, 5000,5000);	
     }
+
     
+
 }
