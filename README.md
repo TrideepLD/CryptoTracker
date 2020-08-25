@@ -33,3 +33,9 @@ Some of the jar files I used:
 11) signpost-core-1.2
 12) slf4j-api-1.7
 13) slf4j-nop-1.7
+
+
+## Note to Self
+
+Learn web sockets
+Learn Asynchronous Requests
