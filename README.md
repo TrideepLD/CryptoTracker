@@ -37,7 +37,15 @@ Some of the jar files I used:
 
 ## Note to Self
 
-Learn web sockets
-Learn Asynchronous Requests
-Learn JavaRX
+Figure out how to set up asynchronity properly
+  1) Learn to use threads + concurrency
+  2) Check out code snippet sent
+  3) Seperate code per files
+
+Learn MongoDB implementation<br>
+Learn web sockets<br>
+Learn Asynchronous Requests<br>
+Learn JavaRX<br>
+Learn ORM<br>
+Heroku App
 
