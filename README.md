@@ -47,6 +47,6 @@ Learn web sockets<br>
 Learn Asynchronous Requests<br>
 Learn JavaRX<br>
 Learn ORM<br>
-Heroku App
+Heroku App<br>
 GSON Library
 
