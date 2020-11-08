@@ -5,6 +5,8 @@ An Arbitrage tracker with GUI all done in Java!
 
 This is a template, to create an arbitrage in Java.
 
+This is an arbitrage. This is the skeleton of an actual project which contains confidential information. The skeleton code works, the API keys, connectors and the such have been removed.
+
 Uses Java 11.
 
 ## How to run?
